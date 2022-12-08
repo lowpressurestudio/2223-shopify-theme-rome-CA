@@ -570,6 +570,15 @@ h1.collection-hero__title {
   font-display: swap;
 }
 
+/* badges */
+
+.card--media .card__inner .card__content .card__badge.bottom.left .badge.badge-additional {
+  background: var(--black);
+  color: var(--white);
+}
+
+/* end badges */
+
 /* END COLLECTION PAGE */
 
 /* TECH PAGE */
