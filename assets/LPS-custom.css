@@ -572,11 +572,6 @@ h1.collection-hero__title {
 
 /* badges */
 
-.card--media .card__inner .card__content .card__badge .badge.badge-additional {
-  background: var(--black);
-  color: var(--white);
-}
-
 /* end badges */
 
 /* END COLLECTION PAGE */
