@@ -268,7 +268,7 @@
     "e6984d10-1a58-493a-9e8d-c3f28694ec77": {
       "type": "LPS-klaviyo-sign-up",
       "settings": {
-        "title": "",
+        "title": "Newsletter",
         "bg_color": "#000000"
       }
     },
