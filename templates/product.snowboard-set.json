@@ -46,6 +46,11 @@
             "show_dynamic_checkout": true
           }
         },
+        "3121acd9-1ae9-4d2b-a914-ab4abbd9b6f5": {
+          "type": "lps_set_ufe_wrapper",
+          "settings": {
+          }
+        },
         "012bef79-36c5-4569-8289-ecb986f1508b": {
           "type": "badge_message",
           "settings": {
@@ -60,6 +65,7 @@
         "description",
         "variant_picker",
         "buy_buttons",
+        "3121acd9-1ae9-4d2b-a914-ab4abbd9b6f5",
         "012bef79-36c5-4569-8289-ecb986f1508b"
       ],
       "settings": {
