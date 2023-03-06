@@ -1,3 +1,4 @@
+
 <script>
 
 if(!window.jQuery){
@@ -49,7 +50,7 @@ __DL__jQueryinterval = setInterval(function(){
         	searchTermQuery: [getURLParams('q')], // replace var with correct query
     	};
    	 
-    	/* DO NOT EDIT */
+    	/* DO NOT EDIT *
     	defaultBindings = {
         	cartTriggers: ['form[action="/cart/add"] [type="submit"],.add-to-cart,.cart-btn'],
         	viewCart: ['form[action="/cart"],.my-cart,.trigger-cart,#mobileCart'],
@@ -287,7 +288,7 @@ __DL__jQueryinterval = setInterval(function(){
                     	'item_id'    	: {{product.id | json}},             	 
                     	'item_variant'	: {{product.selected_or_first_available_variant.id | json}},        	 
                     	'item_name'  	: {{product.title | json}},
-                    	'price'       	: {{product.price | money_without_currency | replace: ',', '.' | json}},
+                    	'price'       	: {{product.price | money_without_currency | remove: "," | json}},
                     	'item_brand'  	: {{product.vendor | json}},
                     	'item_category'   : {{product.type | json}},
                     	'item_list_name'  : {{collection.title | json}},
@@ -313,7 +314,7 @@ __DL__jQueryinterval = setInterval(function(){
                 	'item_id'    	: {{product.id | json}},  
                 	'item_variant'	: {{product.selected_or_first_available_variant.id | json}},        	 
                 	'item_name'  	: {{product.title | json}},
-                	'price'       	: {{product.price | money_without_currency | replace: ',', '.' | json}},
+                	'price'       	: {{product.price | money_without_currency | remove: "," | json}},
                 	'item_brand'  	: {{product.vendor | json}},
                 	'item_category'   : {{product.type | json}},
                 	'item_list_name'  : {{collection.title | json}},
@@ -345,7 +346,7 @@ __DL__jQueryinterval = setInterval(function(){
                 	'item_id'    	: {{line_item.product.id | json}},             	 
                 	'item_variant'	: {{product.selected_or_first_available_variant.id | json}},        	 
                 	'item_name'  	: {{line_item.product.title | json}},
-                	'price'       	: {{line_item.product.price | money_without_currency | replace: ',', '.' | json}},
+                	'price'       	: {{line_item.product.price | money_without_currency | remove: "," | json}},
                 	'item_brand'  	: {{line_item.product.vendor | json}},
                 	'item_category'   : {{line_item.product.type | json}},
                 	'item_list_name'  : {{line_item.collection.title | json}},
@@ -365,10 +366,10 @@ __DL__jQueryinterval = setInterval(function(){
         	var ecommerce = {
             	'transaction_id': '{{checkout.order_number  | json}}',
             	'affiliation': {{shop.name | json}},
-            	'value': {{checkout.total_price | money_without_currency | replace: ',', '.' | json}},
-            	'tax': {{checkout.tax_price | money_without_currency | replace: ',','.' | json}},
-            	'shipping': {{checkout.shipping_price | money_without_currency | replace: ',','.' | json}},
-            	'subtotal': {{checkout.subtotal_price | money_without_currency| replace: ',','.' | json}},
+            	'value': {{checkout.total_price | money_without_currency | remove: "," | json}},
+            	'tax': {{checkout.tax_price | money_without_currency | remove: "," | json}},
+            	'shipping': {{checkout.shipping_price | money_without_currency | remove: ","| json}},
+            	'subtotal': {{checkout.subtotal_price | money_without_currency| remove: "," | json}},
             	'currency': {{checkout.currency | json}},
             	{% for discount in checkout.discounts %}
             	'coupon': {{discount.code | json}},
@@ -379,7 +380,7 @@ __DL__jQueryinterval = setInterval(function(){
                 	'item_id'    	: {{line_item.product.id | json}},             	 
                 	'item_variant'	: {{product.selected_or_first_available_variant.id | json}},        	 
                 	'item_name'  	: {{line_item.product.title | json}},
-                	'price'       	: {{line_item.product.price | money_without_currency | replace: ',', '.' | json}},
+                	'price'       	: {{line_item.product.price | money_without_currency | remove: "," | json}},
                 	'item_brand'  	: {{line_item.product.vendor | json}},
                 	'item_category'   : {{line_item.product.type | json}},
                 	'item_list_name'  : {{line_item.collection.title | json}},
@@ -432,7 +433,7 @@ __DL__jQueryinterval = setInterval(function(){
                     	'item_id'    	: {{product.id | json}},             	 
                     	'item_variant'	: {{product.selected_or_first_available_variant.id | json}},        	 
                     	'item_name'  	: {{product.title | json}},
-                    	'price'       	: {{product.price | money_without_currency | replace: ',', '.' | json}},
+                    	'price'       	: {{product.price | money_without_currency | remove: "," | json}},
                     	'item_brand'  	: {{product.vendor | json}},
                     	'item_category'   : {{product.type | json}},
                     	'item_list_name'  : {{product.collection.title | json}},
@@ -454,7 +455,7 @@ __DL__jQueryinterval = setInterval(function(){
                     	'item_id'    	: {{line_item.product.id | json}},             	 
                     	'item_variant'	: {{product.selected_or_first_available_variant.id | json}},        	 
                     	'item_name'  	: {{line_item.product.title | json}},
-                    	'price'       	: {{line_item.product.price | money_without_currency | replace: ',', '.' | json}},
+                    	'price'       	: {{line_item.product.price | money_without_currency | remove: "," | json}},
                     	'item_brand'  	: {{line_item.product.vendor | json}},
                     	'item_category'   : {{line_item.product.type | json}},
                     	'item_list_name'  : {{line_item.collection.title | json}},
@@ -484,3 +485,8 @@ __DL__jQueryinterval = setInterval(function(){
 }, 500);
  
 </script> 
+
+
+
+
+
