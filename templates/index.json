@@ -2,6 +2,7 @@
   "sections": {
     "6684bfa1-a777-4f3c-b2f3-8d109c5141ec": {
       "type": "LPS-video-banner",
+      "disabled": true,
       "settings": {
         "video": "https:\/\/www.youtube.com\/watch?v=zVbCwgHdZ0I",
         "title": "Shop the 20th Anniversary Collection",
@@ -127,22 +128,21 @@
     },
     "165771507594ea817e": {
       "type": "LPS-image-banner",
-      "disabled": true,
       "settings": {
         "container-ratio-desktop": "21_9",
         "container-ratio-mobile": "4_6",
-        "title": "New Title",
+        "title": "30% Off Summer Sale",
         "heading_font_size": 36,
         "heading_alignment": "left top",
-        "cta_1": "Men",
-        "cta_1_link": "shopify:\/\/collections\/mens-snowboard-bindings",
-        "cta_2": "Women",
-        "cta_2_link": "shopify:\/\/collections\/womens-snowboard-bindings",
-        "cta_3": "Youth",
-        "cta_3_link": "shopify:\/\/collections\/kids-snowboard-bindings",
+        "cta_1": "Shop Now",
+        "cta_1_link": "shopify:\/\/collections\/all",
+        "cta_2": "",
+        "cta_2_link": "",
+        "cta_3": "",
+        "cta_3_link": "",
         "cta_font_size": 14,
-        "bg_image": "shopify:\/\/shop_images\/home-banner-bindings.jpg",
-        "bg_image_mobile": "shopify:\/\/shop_images\/home-banner-bindings-mobile.jpg",
+        "bg_image": "shopify:\/\/shop_images\/30_summer_sale_desktop.jpg",
+        "bg_image_mobile": "shopify:\/\/shop_images\/30_summer_sale_mobile.jpg",
         "bg_alignment": "center center",
         "bg_color": "#f0f0f0"
       }
@@ -151,7 +151,6 @@
       "type": "LPS-klaviyo-sign-up",
       "disabled": true,
       "settings": {
-        "title": "Join the Syndicate",
         "bg_color": "#000000"
       }
     },
@@ -268,7 +267,6 @@
     "e6984d10-1a58-493a-9e8d-c3f28694ec77": {
       "type": "LPS-klaviyo-sign-up",
       "settings": {
-        "title": "",
         "bg_color": "#000000"
       }
     },
