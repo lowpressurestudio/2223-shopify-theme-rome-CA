@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "klaviyo_api_code_us": "UCwdbM",
@@ -180,7 +189,7 @@
             "settings": {
               "col_img_title": "Find a Store",
               "image": "shopify:\/\/shop_images\/2223-find-a-store-map.jpg",
-              "image_link": "shopify:\/\/pages\/dealers"
+              "image_link": "shopify:\/\/pages\/dealer-finder"
             }
           }
         },
@@ -198,20 +207,8 @@
 
     ],
     "blocks": {
-      "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "14060646107696862457": {
         "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "10112818894266855621": {
-        "type": "shopify:\/\/apps\/ufe-cross-sell-upsell-bundle\/blocks\/app-embed\/588d2ac5-62f3-4ccd-8638-da98ec61fa90",
         "disabled": false,
         "settings": {
         }
